@@ -1,0 +1,5 @@
+convert to week returns
+outlier error data Hampler Filter
+PCA rolling window(two methods mentioned in materials)
+get components of whole sample and run regression towards ETFs,test the residuals.
+Also use rolling windows to test stability of betas.
