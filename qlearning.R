@@ -30,7 +30,9 @@ Q=rbind(c(NA,0,NA,0,NA,NA,NA,NA,NA,NA,NA),
         c(0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA),
         c(0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA))
 
-for(i in 1:50000){
+Q1<-1
+while(abs(sum(Q-Q1,na.rm = T))>0.0001){
+  Q1<-Q
   pos=1
   while(pos<10){
     temp<-Q[pos,]
