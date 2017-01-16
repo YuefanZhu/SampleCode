@@ -86,7 +86,6 @@ for j in range(len(mystring2)):
                 temp.append(item.replace(',','').replace(':','').replace('\r',''))
         break
 result.append(temp)
-
 with open('C:\\Users\\yz283\\Desktop\\output.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(result)
